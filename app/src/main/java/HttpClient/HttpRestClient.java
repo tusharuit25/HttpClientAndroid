@@ -12,7 +12,7 @@ import cz.msebera.android.httpclient.conn.ssl.SSLSocketFactory;
  */
 public class HttpRestClient {
 
-    private static final String BASE_URL = "https://urbanx-urbanxdevelopment.azurewebsites.net/api/v1.0/";
+    private static final String BASE_URL = "https://yourserverurl/api/v1.0/";
     private static AsyncHttpClient client = new AsyncHttpClient();
 
     public static void get(String url,boolean requireAuthentication , String AccessToken, RequestParams params, AsyncHttpResponseHandler responseHandler) {
